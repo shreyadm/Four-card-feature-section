@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+}
+
+.title{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    padding-top: 52px;
+    text-align: center;
+
+}
+
+.subtitle{
+    font-weight: 600;   
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+}
+
+.title-info{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 320px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.card-columns{
+    width: 100%; 
+    height: 250px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+}
+
+.card{
+    align-items: baseline;
+    box-shadow: 20px;
+    border-radius: 25px;
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card1{
+    margin-top: 250px;
+    margin-left: 80px;
+    height: 250px;
+    margin-right: 15px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.card2{
+    margin-top: 70px;
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+.card3{
+    border-top: 4px solid  hsl(34, 97%, 64%);
+    align-self: flex-end;
+}
+.card4{
+    margin-top: 250px;
+    margin-right: 80px;
+    height: 250px;
+    margin-left: 15px;
+    border-top: 4px solid  hsl(212, 86%, 64%);
+}
+
+
+.card-title{
+    text-align: left;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+}
+
+img{
+    margin-left: 75%;
+    margin-top: 10%;
+}
+
+
+/* ----------------------------------RESPONSIVE------------------------- */
+@media (max-width : 500px){
+    .title-info{
+        font-size: 23px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .card{
+        margin: 20px 40px;
+        box-shadow: 20px;
+        height: 250px;
+        display: block;
+    }
+
+    .card1{
+        margin-top: 100px;
+    }
+
+    .card-text{
+        text-align: left;
+        width: 300px;
+        line-height: 1.8;
+    }
+    img{
+        margin: 20px 100px 0 270px;    
+    }
+    .card-columns{
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        background-color: hsl(0, 0%, 98%);
+    }
+}
